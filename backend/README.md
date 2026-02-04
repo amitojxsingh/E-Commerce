@@ -12,6 +12,13 @@ Supported `range` values:
 - `today`
 - `last_7_days` (default)
 - `last_30_days`
+- `last_90_days`
+
+Optional query params:
+
+- `variant` (defaults to `baseline`)
+  - `promo` – simulates a promotion (higher revenue/orders)
+  - `slow_week` – simulates a downturn (lower revenue/orders)
 
 ## Running the backend locally
 
